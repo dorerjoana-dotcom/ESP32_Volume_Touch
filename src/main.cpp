@@ -2,7 +2,7 @@
 #include <BleKeyboard.h>
 
 // So erscheint der ESP in der Bluetooth-Liste: Name, Hersteller, Akkustand
-BleKeyboard bleKeyboard("ESP32 Lautstaerke", "Joana Dorer", 100);
+BleKeyboard bleKeyboard("ESP32 Lautstaerke", "Joana Dorer", 11);
 
 const int TOUCH_PIN = 4;   // GPIO 4 = Touch-Pin T0
 const int SCHWELLE  = 60;  // Wert UNTER der Schwelle = "beruehrt" 
